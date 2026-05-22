@@ -1,0 +1,24 @@
+# PHP
+*.log
+*.cache
+/vendor/
+composer.lock
+
+# Environment / config
+.env
+config.php
+config.local.php
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated exports (no guardar PDFs/Excel generados en repo)
+*.pdf
+*.xlsx
+/exports/
+
+# IDE
+.vscode/
+.idea/
+*.swp
